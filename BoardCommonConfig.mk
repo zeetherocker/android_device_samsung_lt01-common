@@ -37,6 +37,7 @@ TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := false
 # Recovery
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 BOARD_RECOVERY_SWIPE := true
+TARGET_RECOVERY_INITRC := device/samsung/lt01-common/recovery/root/init.rc
 
 # Sensors
 BOARD_USE_LEGACY_SENSORS_FUSION := false
